@@ -13,22 +13,22 @@ module.exports = {
     evergreen: true,
     themeConfig: {
         nav: [{
-                text: 'Home',
+                text: '主页',
                 link: '/'
             },
             {
-                text: 'Guide',
+                text: '测试',
                 link: '/guide/'
             },
             {
-                text: 'Languages',
+                text: '笔记',
                 items: [{
-                        text: 'Chinese',
-                        link: '/language/chinese'
+                        text: 'git笔记',
+                        link: '/note/git_note/'
                     },
                     {
-                        text: 'English',
-                        link: '/language/english'
+                        text: 'vue笔记',
+                        link: '/note/vue_note/'
                     }
                 ]
             },
